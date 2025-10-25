@@ -1,0 +1,27 @@
+# Virtual Environment
+# This folder contains Python dependencies and should be created fresh on each machine
+venv/
+
+# Python Cache Files
+# These are automatically generated when Python runs and can be recreated
+__pycache__/
+*.pyc
+*.pyo
+
+# ChromaDB Data Directory
+# This will store our database files locally
+chroma_db/
+
+# Environment Variables
+# Used to store API keys and secrets - should NEVER be committed
+.env
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS Files
+.DS_Store
+
